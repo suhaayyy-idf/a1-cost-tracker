@@ -3,7 +3,7 @@
 I made Python command-line tool that sends the same prompts three times to *OpenRouter* and *Groq* at the same time to compare their responses side by side, telling real token usage from each API response, calculates the exact cost in USD, and saving the results in "results.json".
 
 
-# strucure of project
+# Structure of project
 "tracker.py" = Main script that calls both providers, prints responses and a comparison table, and writes "results.json".
 "pyproject.toml" = Project configuration and required Python dependencies ("openai" , "groq" , "python-dotenv").
 ".env.example" = Template showing the required environment variables without real API keys.
